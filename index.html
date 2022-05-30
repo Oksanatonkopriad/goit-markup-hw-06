@@ -459,15 +459,19 @@
                         </span>
 
                     </label>
-                    <label class="form-comment">Коментарий
-                        <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+                    <label class="form-comment">
+                        <span class="form-label">Коментарий</span>
+                        <textarea class="comment" name="comment" id="comment" cols="30" rows="10" placeholder="Введите текст"></textarea>
                     </label>
                     <!-- Соглашение с рассылкой -->
                     <label class="form-policy-group">
                         <input class="custom-checkbox" type="checkbox" name="checkbox" id="checkbox">
-                        <svg class="checkbox-icon" width="16" height="15">
-                            <use href="./images/icons.svg#icon-Vector"></use>
-                        </svg>
+                        <span class="checkbox">
+                            <svg class="checkbox-icon" width="16" height="15">
+                                <use href="./images/icons.svg#icon-Vector"></use>
+                            </svg>
+                        </span>
+
                         Соглашаюсь с рассылкой и принимаю
                         <a href="">Условия договора</a>
                         <button class="button btn-submit" type="submit">Отправить</button>
