@@ -199,7 +199,7 @@ margin-left: 50px;
     padding-top: 200px;
 
     background-color: #C4C4C4;
-    background-image: url(../images/order-service/Img.jpg), linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/order-service/Img.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
